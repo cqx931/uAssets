@@ -109,7 +109,6 @@ qq.com##iframe[src*='gtimg']
 ##iframe[src*='zol.com.cn/ad/']
 zol.com.cn##DIV[class="ad-box"]
 
-
 # Fortune.com
 ##div[id^="outbrain_widget"]
 ##img[src*='dianomi.com/img/']
@@ -429,6 +428,9 @@ coinmarketcap.com###enjoin-header
 # google icon images
 @@||ssl.gstatic.com/gb/images/
 @@||ssl.gstatic.com/images/
+
+# pikabu.ru
+@@||an.yandex.ru^$third-party,domain=pikabu.ru
 
 # pandora
 @@||www.pandora.com^
