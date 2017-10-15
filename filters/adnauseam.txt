@@ -1,4 +1,3 @@
-
 search.yahoo.com##.layoutMiddle
 search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
@@ -8,7 +7,6 @@ www.ask.com##.tsrc_SAS
 www.ask.com###megaLabel
 www.ask.com###csaBottom
 
-#TEXT AD ask.com
 google.com###adBlock > .ad.a_
 
 www.zam.com##.ad
@@ -255,6 +253,11 @@ google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 ##div[id^="bmone"]
 
 www.28hse.com###universal_banner_sq_ads
+
+# mrfreeat33
+##a[href*="click.tunnelbear.com/aff"]
+
+##################### Blocking rules ########################
 
 # crunchyroll.com
 ||v.fwmrm.net^$important,third-party,domain=crunchyroll.com
