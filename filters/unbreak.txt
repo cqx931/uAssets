@@ -30,6 +30,9 @@
 
 # https://github.com/chrisaljoudi/uBlock/issues/69
 @@||widget-cdn.rpxnow.com^$domain=foxnews.com,script
+! https://github.com/uBlockOrigin/uAssets/issues/729
+@@||global.fncstatic.com/$script,domain=video.foxnews.com
+||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 
 # https://github.com/chrisaljoudi/uBlock/issues/141
 # Videos broken on weather.com
@@ -207,11 +210,6 @@ ovh.strim.io#@##tweets
 
 # https://forums.lanik.us/viewtopic.php?f=64&t=23859
 @@||imasdk.googleapis.com/js/core$subdocument,domain=globalnews.ca
-
-# https://github.com/gorhill/uBlock/issues/780
-@@||www.google-analytics.com/plugins/ua/linkid.js$script,domain=support.amd.com
-@@||www.google-analytics.com/analytics.js$script,domain=support.amd.com
-@@||www.googletagmanager.com/gtm.js$script,domain=support.amd.com
 
 # https://www.reddit.com/r/uBlockOrigin/comments/3oca9w/how_to_keep_ublock_from_interfering_with_button/
 @@||partner.googleadservices.com/gpt/$script,domain=www.merriam-webster.com
@@ -620,3 +618,47 @@ mejoratuescuela.org#@#.container-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/685
 @@||thekitchn.com/assets/comscore.streaming.min.js$script,first-party
+
+! https://forums.lanik.us/viewtopic.php?f=64&t=38221
+||study.com/js/trcking/eventTracking*.js$script,first-party,redirect=noopjs
+
+! https://github.com/gorhill/uBlock/issues/3035
+@@||thewalrus.ca^*/dfpload.js$script,first-party
+
+! https://forums.lanik.us/viewtopic.php?p=124442#p124442
+@@||lightboxcdn.com/static/identity.html$subdocument,domain=cleanplates.com
+
+! https://forums.lanik.us/viewtopic.php?f=64&t=38262
+||oakley.com/_ui/dist/scripts/vendor/tealium.js$script,first-party,redirect=noopjs
+
+! Reported in Chrome store: "Orange portal http://www.orange.fr/portail is freezed"
+orange.fr#@##o_carrepub
+orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibility: hidden; width: 1px;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/715
+@@||mpsnare.iesnare.com/snare.js$script,domain=costco.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/703
+! https://github.com/easylist/easylist/commit/e626b6840c4d6ab6dbc2c75466d6608c0266fd2e#commitcomment-24532319
+@@||realcam.me/emb*.min.js$script,domain=fbstreams.me|mlbstream.me|nbastreams.me|nflstreams.me|nhlstreams.me|strikeout.co
+@@||livecamtv.me/emb*.min.js$script,domain=fbstreams.me|mlbstream.me|nbastreams.me|nflstreams.me|nhlstreams.me|strikeout.co
+@@||seelive.me/emb*.min.js$script,domain=fbstreams.me|mlbstream.me|nbastreams.me|nflstreams.me|nhlstreams.me|strikeout.co
+
+! https://github.com/uBlockOrigin/uAssets/issues/720
+! Remove after 1.14.12 has been released
+@@||bookdepository.com/book/*/?a_aid=$popup
+
+! https://github.com/uBlockOrigin/uAssets/issues/732
+@@/hello^$xmlhttprequest,domain=speedtest.net 
+@@/download^$xmlhttprequest,domain=speedtest.net 
+@@/upload^$xmlhttprequest,domain=speedtest.net
+
+! https://github.com/uBlockOrigin/uAssets/issues/733
+@@||speedtest.net/*/*bundle$script,first-party
+@@||mapbox.com^$xmlhttprequest,domain=speedtest.net
+
+! https://github.com/uBlockOrigin/uAssets/issues/737
+@@||thermofisher.com/*/analytics.sitecatalyst.js$script,first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/750
+@@||citi.com/cards/*/tracking.js$script

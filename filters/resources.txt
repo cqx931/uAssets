@@ -301,7 +301,8 @@ google-analytics.com/analytics.js application/javascript
 	p.set = noopfn;
 	p.send = noopfn;
 	//
-	var gaName = window.GoogleAnalyticsObject || 'ga';
+	var w = window,
+		gaName = w.GoogleAnalyticsObject || 'ga';
 	var ga = function() {
 		var len = arguments.length;
 		if ( len === 0 ) {
@@ -324,7 +325,12 @@ google-analytics.com/analytics.js application/javascript
 		return [];
 	};
 	ga.remove = noopfn;
-	window[gaName] = ga;
+	w[gaName] = ga;
+	// https://github.com/gorhill/uBlock/issues/3075
+	var dl = w.dataLayer;
+	if ( dl instanceof Object && dl.hide instanceof Object && typeof dl.hide.end === 'function' ) {
+		dl.hide.end();
+	}
 })();
 
 google-analytics.com/inpage_linkid.js application/javascript
@@ -414,14 +420,18 @@ googletagservices.com/gpt.js application/javascript
 		enableVideoAds: noopfn,
 		get: noopnullfn,
 		getAttributeKeys: nooparrayfn,
+		getTargeting: noopfn,
+		getTargetingKeys: nooparrayfn,
 		getSlots: nooparrayfn,
 		refresh: noopfn,
 		set: noopthisfn,
 		setCategoryExclusion: noopthisfn,
 		setCentering: noopfn,
 		setCookieOptions: noopthisfn,
+		setForceSafeFrame: noopthisfn,
 		setLocation: noopthisfn,
 		setPublisherProvidedId: noopthisfn,
+		setSafeFrameConfig: noopthisfn,
 		setTagForChildDirectedTreatment: noopthisfn,
 		setTargeting: noopthisfn,
 		setVideoContent: noopthisfn,
@@ -1888,4 +1898,31 @@ abort-current-inline-script.js application/javascript
 			return oe.apply(this, arguments);
 		}
 	}.bind();
+})();
+
+
+# https://github.com/uBlockOrigin/uAssets/commit/a6c77af4afb45800d4fd7c268a2a5eab5a64daf3#commitcomment-24611606
+window.open-defuser.js application/javascript
+(function() {
+	var wo = window.open,
+		target = '{{1}}',
+		needle = '{{2}}';
+	if ( target === '' || target === '{{1}}' ) {
+		target = false;
+	} else {
+		target = !(+target);
+	}
+	if ( needle === '' || needle === '{{2}}' ) {
+		needle = '.?';
+	} else if ( /^\/.+\/$/.test(needle) ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	window.open = (function(a) {
+		if ( needle.test(a) === target ) {
+			return wo.apply(window, arguments);
+		}
+	}).bind(window);
 })();
