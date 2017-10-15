@@ -3,6 +3,8 @@ search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
 search.yahoo.com##.compTitle.fc-4th
 
+www.telegraph.co.uk##.premium-promo--wrapper
+
 www.ask.com##.tsrc_SAS
 www.ask.com###megaLabel
 www.ask.com###csaBottom
