@@ -73,6 +73,9 @@ columbiagreenemedia.com###sawyer_container
 163.com##a[href*='AID']
 ##a[href*='kaolaad']
 
+# pandora
+pandora.com##*[id*="ad1"]
+
 # root.cz
 root.cz##.owl-stage-outer
 root.cz##.promo
@@ -102,8 +105,7 @@ qq.com##iframe[src*='gtimg']
 # zol.com.cn
 ##DIV[class*="zmall-ad"]
 ##iframe[src*='zol.com.cn/ad/']
-##DIV[class="ad-box"]
-
+zol.com.cn##DIV[class="ad-box"]
 
 # Fortune.com
 ##div[id^="outbrain_widget"]
@@ -229,6 +231,8 @@ www.overclockers.ru##img[src^="/images/HP_"]
 # mrfreeat33.com
 ##a[href*="track.flexlinkspro.com"]
 ##a[href*="bluehost.com/track"]
+##a[href*="click.tunnelbear.com/aff"]
+www.mrfreeat33.com##img[src*="i2.wp.com/content.flexlinks.com/sharedimages/products"]
 
 # radikal.ru (video)
 radikal.ru##div[id^="DIV_DA_ADP"]
@@ -238,9 +242,27 @@ radikal.ru##div[id^="DIV_DA_ADP"]
 ##img[src*="delivery.clickganic.com"]
 optoclick.net##.vjs-poster
 
+# convert2mp3
+##iframe[src*="ads/ad"]
+##iframe[src*="liveadexchanger"]
+##a[href*="liveadexchanger"]
+
 # dailymotion.com
 dailymotion.com##.gwd-page-content
 dailymotion.com##.gwd-page-container
+
+# mac-torrent-download.net
+@@||www.googletagmanager.com^$script,domain=mac-torrent-download.net
+mac-torrent-download.net##.ad-box > a > img
+mac-torrent-download.net##.ad-box > .textwidget
+mac-torrent-download.net##.ad-kijisita
+mac-torrent-download.net##iframe[class*="it-client"]
+mac-torrent-download.net##div > .ad-box.round-btn-parent
+
+# last.fm
+last.fm##.related-ads
+last.fm##.video-ad
+last.fm##.lastfm-ad
 
 # Google ads
 #@#.adsbygoogle
@@ -254,10 +276,11 @@ google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 
 www.28hse.com###universal_banner_sq_ads
 
-# mrfreeat33
-##a[href*="click.tunnelbear.com/aff"]
-
 ##################### Blocking rules ########################
+
+#coinmarketcap.com
+coinmarketcap.com###enjoin-header
+||ctnet2.in^$third-party,important
 
 # crunchyroll.com
 ||v.fwmrm.net^$important,third-party,domain=crunchyroll.com
@@ -382,6 +405,9 @@ www.28hse.com###universal_banner_sq_ads
 
 ||functionalclam.com^$third-party
 
+# observer.com
+||wibbitz.com$domain=observer.com
+
 ##################### Exceptions below here ########################
 
 # Requests that influence visual ads
@@ -404,6 +430,12 @@ www.28hse.com###universal_banner_sq_ads
 # google icon images
 @@||ssl.gstatic.com/gb/images/
 @@||ssl.gstatic.com/images/
+
+# pikabu.ru
+@@||an.yandex.ru^$third-party,domain=pikabu.ru
+
+# pandora
+@@||www.pandora.com^
 
 # cisco
 @@||tiqcdn.com$third-party,domain=cisco.com
