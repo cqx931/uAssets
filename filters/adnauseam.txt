@@ -31,8 +31,11 @@ si.com#@#.cm-ad
 # piratebay
 ##iframe[src*="adxprts.com"]
 ##iframe[src*="exoclick.com"]
-##iframe[src*="thepiratebay.org/static/ads"]
+##iframe[src*="thepiratebay.org/static/"]
 piratebay.com##img[src*="exdynsrv.com"]
+www.thepiratebay.org###sky-banner
+www.thepiratebay.org###sky-center
+
 
 # 4archive.prg
 ||rawybznxrp.bid/^
