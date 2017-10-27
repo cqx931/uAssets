@@ -5,6 +5,8 @@ search.yahoo.com##.compTitle.fc-4th
 
 www.telegraph.co.uk##.premium-promo--wrapper
 
+inc.com##.teads-inread
+
 www.ask.com##.tsrc_SAS
 www.ask.com###megaLabel
 www.ask.com###csaBottom
