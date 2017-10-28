@@ -278,6 +278,7 @@ coinmarketcap.com###enjoin-header
 
 # markdown2pdf.com
 ##.imgBannerLink
+markdown2pdf.com##.it-client
 
 ##################### Blocking rules ########################
 
