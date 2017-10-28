@@ -36,15 +36,6 @@ piratebay.com##img[src*="exdynsrv.com"]
 www.thepiratebay.org###sky-banner
 www.thepiratebay.org###sky-center
 
-
-# 4archive.prg
-||rawybznxrp.bid/^
-||exosrv.com^
-|https://$script,domain=4archive.org|4chanarchives.cu.cc|randomarchive.com|thebarchive.com
-
-# 10tv.nana10.co.il
-||advsnx.net^$important,third-party
-
 # marinetraffic.com
 ##.home-page.has-ad-space.container-fluid > .upper.row > .hidden-print.vertical-offset-5 > .mtseventwentyeight > a[href^="/en/p/plans"] > img[src="/img/upper_02.gif"]
 
@@ -283,10 +274,22 @@ google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 
 www.28hse.com###universal_banner_sq_ads
 
+coinmarketcap.com###enjoin-header
+
+# markdown2pdf.com
+##.imgBannerLink
+
 ##################### Blocking rules ########################
 
+# 4archive.prg
+||rawybznxrp.bid/^
+||exosrv.com^
+|https://$script,domain=4archive.org|4chanarchives.cu.cc|randomarchive.com|thebarchive.com
+
+# 10tv.nana10.co.il
+||advsnx.net^$important,third-party
+
 #coinmarketcap.com
-coinmarketcap.com###enjoin-header
 ||ctnet2.in^$third-party,important
 
 # crunchyroll.com
