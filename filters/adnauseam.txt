@@ -71,6 +71,9 @@ columbiagreenemedia.com###sawyer_container
 163.com##a[href*='AID']
 ##a[href*='kaolaad']
 
+www.pinterest.com##div[data-test-signup="true"]
+www.pinterest.com##div[data-test-giftwrap="true"]
+
 # pandora
 pandora.com##*[id*="ad1"]
 
