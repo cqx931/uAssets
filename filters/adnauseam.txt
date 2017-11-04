@@ -5,6 +5,8 @@ search.yahoo.com##.compTitle.fc-4th
 
 www.telegraph.co.uk##.premium-promo--wrapper
 
+forums.landlordzone.co.uk##img[src*="/adserve/"]
+
 inc.com##.teads-inread
 
 www.ask.com##.tsrc_SAS
