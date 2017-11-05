@@ -239,6 +239,8 @@ www.overclockers.ru##img[src^="/images/HP_"]
 ##a[href*="click.tunnelbear.com/aff"]
 www.mrfreeat33.com##img[src*="i2.wp.com/content.flexlinks.com/sharedimages/products"]
 
+stackoverflow.com#@#.adsbox
+
 # radikal.ru (video)
 radikal.ru##div[id^="DIV_DA_ADP"]
 ##div[id^="advertur_"]
