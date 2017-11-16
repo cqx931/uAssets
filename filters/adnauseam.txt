@@ -263,10 +263,13 @@ dailymotion.com##.gwd-page-container
 # mac-torrent-download.net
 @@||www.googletagmanager.com^$script,domain=mac-torrent-download.net
 mac-torrent-download.net##.ad-box > a > img
-mac-torrent-download.net##.ad-box > .textwidget
+mac-torrent-download.net##div > .textwidget
 mac-torrent-download.net##.ad-kijisita
 mac-torrent-download.net##iframe[class*="it-client"]
 mac-torrent-download.net##div > .ad-box.round-btn-parent
+mac-torrent-download.net###sidebar > .ad-box
+mac-torrent-download.net#@#.ad-box
+mac-torrent-download.net##.ad-box > .img-center > div:has(script)
 
 # last.fm
 last.fm##.related-ads
