@@ -294,6 +294,12 @@ coinmarketcap.com###enjoin-header
 ##.imgBannerLink
 markdown2pdf.com##.it-client
 
+#neoseeker.com
+||as.casalemedia.com^$script,domain=www.neoseeker.com
+neoseeker.com##.wrapper > .creative
+neoseeker.com###stitialv2
+neoseeker.com###leaderboardTop.section-ad
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
