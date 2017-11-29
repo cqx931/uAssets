@@ -58,6 +58,9 @@ asiaxpat.com##.renaud
 hongkong.asiaxpat.com###fade
 hongkong.asiaxpat.com###light
 
+# various torrent sites
+##iframe[src*="wwwpromoter.com"]
+
 # documentaryheaven
 ##iframe[src*="cse.google.com"]
 
