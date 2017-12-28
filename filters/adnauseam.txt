@@ -28,6 +28,7 @@ facebook.com##.ego_unit:has(div.uiScaledImageContainer)
 facebook.com##._5hn6
 
 www.scmp.com##.promotion-carousel
+www.scmp.com###teads0
 
 si.com#@#.ad
 si.com#@#.mobile-ad
