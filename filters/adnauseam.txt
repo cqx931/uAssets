@@ -304,6 +304,11 @@ neoseeker.com##.wrapper > .creative
 neoseeker.com###stitialv2
 neoseeker.com###leaderboardTop.section-ad
 
+#theguardian.com
+theguardian.com##.adverts--within-unbranded .badge
+theguardian.com##.paidfor-container .badge
+theguardian.com##.paid-content .badge
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
