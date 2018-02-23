@@ -7,6 +7,8 @@ www.telegraph.co.uk##.premium-promo--wrapper
 
 apply.hkbn.net###promotionBannerId
 
+www.spacious.hk##.page__commercial_display_banner_box__content
+
 forums.landlordzone.co.uk##img[src*="/adserve/"]
 
 inc.com##.teads-inread
