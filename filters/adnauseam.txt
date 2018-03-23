@@ -33,6 +33,8 @@ www.scmp.com##.promotion-carousel
 www.scmp.com##*[class^="teads"]
 www.scmp.com##*[id^="teads"]
 
+www.economist.com##*[class*="teads"]
+
 si.com#@#.ad
 si.com#@#.mobile-ad
 si.com#@#.cm-ad
