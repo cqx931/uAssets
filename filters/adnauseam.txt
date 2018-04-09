@@ -42,7 +42,7 @@ si.com#@#.mobile-ad
 si.com#@#.cm-ad
 
 # piratebay
-##iframe[src*="adxprts.com"]
+##iframe[src*="adxprt"]
 ##iframe[src*="exoclick.com"]
 ##iframe[src*="thepiratebay.org/static/"]
 piratebay.com##img[src*="exdynsrv.com"]
