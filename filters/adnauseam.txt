@@ -485,3 +485,6 @@ theguardian.com##.paid-content .badge
 
 # cisco
 @@||tiqcdn.com$third-party,domain=cisco.com
+
+# tmp solution for issue #1348
+#@#[style*="base64"]
