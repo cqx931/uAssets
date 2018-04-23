@@ -19,6 +19,10 @@ www.ask.com##.tsrc_SAS
 www.ask.com###megaLabel
 www.ask.com###csaBottom
 
+www.startpage.com###adBlock
+www.startpage.com##*[id^="spon_"]
+www.startpage.com##*[id^="sponsored"]
+
 google.com###adBlock > .ad.a_
 
 www.zam.com##.ad
