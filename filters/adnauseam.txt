@@ -9,6 +9,7 @@ www.telegraph.co.uk##.premium-promo--wrapper
 
 apply.hkbn.net###promotionBannerId
 
+
 www.spacious.hk##.page__commercial_display_banner_box__content
 
 forums.landlordzone.co.uk##img[src*="/adserve/"]
@@ -62,6 +63,10 @@ www.thepiratebay.org###sky-center
 # asiaxpat
 ##.AdBanner
 ###pnlStripBanner
+
+# carbon-ads
+##.carbon-wrap
+##.carbon-poweredby
 
 asiaxpat.com##.header_in1
 asiaxpat.com##.megaBanner
