@@ -465,6 +465,11 @@ theguardian.com##.paid-content .badge
 # observer.com
 ||wibbitz.com$domain=observer.com
 
+# 9anime
+||9anime.is/$script
+||exdynsrv.com^$third-party
+||bebi.com^$third-party
+
 ##################### Exceptions below here ########################
 
 # Requests that influence visual ads
