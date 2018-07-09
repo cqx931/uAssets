@@ -14,6 +14,8 @@ www.spacious.hk##.page__commercial_display_banner_box__content
 
 forums.landlordzone.co.uk##img[src*="/adserve/"]
 
+##img[src*="ads.guava-affiliate.com"]
+
 inc.com##.teads-inread
 
 www.ask.com##.tsrc_SAS
