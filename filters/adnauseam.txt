@@ -7,7 +7,6 @@ www.telegraph.co.uk##.premium-promo--wrapper
 
 apply.hkbn.net###promotionBannerId
 
-
 www.spacious.hk##.page__commercial_display_banner_box__content
 
 forums.landlordzone.co.uk##img[src*="/adserve/"]
@@ -53,6 +52,9 @@ si.com#@#.cm-ad
 piratebay.com##img[src*="exdynsrv.com"]
 www.thepiratebay.org###sky-banner
 www.thepiratebay.org###sky-center
+
+# tvpad.ca
+##img[src*="https://tvpad.ca/media/"]
 
 # marinetraffic.com
 ##.home-page.has-ad-space.container-fluid > .upper.row > .hidden-print.vertical-offset-5 > .mtseventwentyeight > a[href^="/en/p/plans"] > img[src="/img/upper_02.gif"]
