@@ -476,9 +476,6 @@ weather.com##.wx-adWrapper
 ||exdynsrv.com^$third-party
 ||bebi.com^$third-party
 
-# ???
-||www.brooklynpaper.com/assets/ads/2017_05_30_goldbergsager_350x250.png$image
-
 ##################### Exceptions below here ########################
 
 # Requests that influence visual ads
