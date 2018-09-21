@@ -516,3 +516,6 @@ weather.com##.wx-adWrapper
 #@#[src*="data:"]
 #@#[style*="base64"]
 #@#[style*="blob:"]
+
+# rockpapershotgun
+||cdn.gamer-network.net/plugins/dfp$domain=rockpapershotgun.com
