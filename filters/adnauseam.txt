@@ -236,6 +236,9 @@ www.pcmag.com###campaign_261312_lightbox
 batmanstream.com##iframe[src*="bannerflow"]
 
 cnn.com##div[id*='skinImgDiv']
+cnn.com##*[class^="Promo"]
+cnn.com##*[class$="promo"]
+##*[class^="Ad_"]
 
 www.jobsnhire.com##div[class*="teads"]
 www.jobsnhire.com##span[id*="GGADad"]
