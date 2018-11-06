@@ -7,13 +7,14 @@ search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
 search.yahoo.com##.compTitle.fc-4th
 
-www.telegraph.co.uk##.premium-promo--wrapper
+# www.telegraph.co.uk
+##.premium-promo--wrapper
 
 apply.hkbn.net###promotionBannerId
 
 www.spacious.hk##.page__commercial_display_banner_box__content
 
-forums.landlordzone.co.uk##img[src*="/adserve/"]
+##img[src*="/adserve/"]
 
 ##img[src*="ads.guava-affiliate.com"]
 
@@ -25,7 +26,7 @@ www.ask.com###csaBottom
 
 www.startpage.com###adBlock
 www.startpage.com##*[id^="spon_"]
-www.startpage.com##*[id^="sponsored"]
+##*[id^="sponsored"]
 
 google.com###adBlock > .ad.a_
 
@@ -39,11 +40,9 @@ haaretz.co.il###maavaronWrapper
 facebook.com##.ego_unit:has(div.uiScaledImageContainer)
 facebook.com##._5hn6
 
-www.scmp.com##.promotion-carousel
-www.scmp.com##*[class^="teads"]
-www.scmp.com##*[id^="teads"]
-
-www.economist.com##*[class*="teads"]
+##.promotion-carousel
+##*[id^="teads"]
+##*[class*="teads"]
 
 si.com#@#.ad
 si.com#@#.mobile-ad
@@ -115,9 +114,9 @@ root.cz##.owl-stage-outer
 root.cz##.promo
 
 # sohu.com
-sohu.com##DIV[class^="ad_"]
-sohu.com##DIV[id^="ad_"]
-sohu.com##DIV[id^="beans_"]
+##DIV[class^="ad_"]
+##DIV[id^="ad_"]
+##DIV[id^="beans_"]
 ##DIV[class^="TurnAD"]
 ##iframe[src*='taobaocdn']
 ##span[id^="_AdSame"]
@@ -160,12 +159,12 @@ fortune.com##.small-12.column > .row:nth-of-type(2) > .small-12.column > .row > 
 ##img[src*="ubmcmm.baidustatic"]
 @@||pos.baidu.com$subdocument,domain=music.baidu.com
 
-weibo.com##DIV[id*="adcontent"]
-weibo.com##DIV[class*="advert"]
+##DIV[id*="adcontent"]
+##DIV[class*="advert"]
 
-mediapost.com##.advert
-mediapost.com##DIV[class^="ads_inline"]
-mediapost.com##DIV[id="ads_speedbump"]
+##.advert
+##DIV[class^="ads_inline"]
+##DIV[id="ads_speedbump"]
 mediapost.com##img[src*="ced.sascdn"]
 
 forbes.com##div[id*='ads']
