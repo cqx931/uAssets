@@ -1,3 +1,7 @@
+
+# theglobeandmail.com
+##*[class*="ad-wrapper"]
+
 search.yahoo.com##.layoutMiddle
 search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
