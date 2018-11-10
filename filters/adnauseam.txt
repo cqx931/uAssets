@@ -334,6 +334,7 @@ theguardian.com##.adverts--within-unbranded .badge
 theguardian.com##.paidfor-container .badge
 theguardian.com##.paid-content .badge
 
+hk.yahoo.com###adive_vm
 
 #weather.com
 weather.com##.wx-adWrapper
