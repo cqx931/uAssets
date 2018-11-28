@@ -1,5 +1,4 @@
 
-# theglobeandmail.com
 theglobeandmail.com##*[class*="ad-wrapper"]
 
 search.yahoo.com##.layoutMiddle
