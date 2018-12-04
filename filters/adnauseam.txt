@@ -1,13 +1,29 @@
 
-theglobeandmail.com##*[class*="ad-wrapper"]
+# Google generics
+##*[class^="google_ads"]
+##*[class^="img_ad"]
+##*[class^="adsby"]
+#@#.adsbygoogle
+##iframe[id*="ad_iframe"]
+###google_image_div
 
-# www.independent.com.mt
-##*[class*="Advert"]
+# Google map ads on Search
+google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
+
+# generichide (#1466)
+textmechanic.com##*[class^="google_ads"]
+textmechanic.com##*[class^="img_ad"]
+textmechanic.com##*[class^="adsby"]
 
 search.yahoo.com##.layoutMiddle
 search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
 search.yahoo.com##.compTitle.fc-4th
+
+theglobeandmail.com##*[class*="ad-wrapper"]
+
+# www.independent.com.mt
+##*[class*="Advert"]
 
 # www.telegraph.co.uk
 ##.premium-promo--wrapper
@@ -187,7 +203,7 @@ theatlantic.com###tl_main_single
 # creativebloq.com
 creativebloq.com##iframe[width="160px"][height="600px"]
 
-# reuters.com
+# reuters.com (first 2 are cosmetic exceptions)
 reuters.com#@#iframe[id^="google_ads_iframe"]
 reuters.com#@#div[id^="google_ads_iframe_"]
 reuters.com##.CanvasAd_container_sZDIL
@@ -306,13 +322,6 @@ mac-torrent-download.net##.ad-box > .img-center > div:has(script)
 last.fm##.related-ads
 last.fm##.video-ad
 last.fm##.lastfm-ad
-
-# Google ads
-#@#.adsbygoogle
-##iframe[id="ad_iframe"]
-###google_image_div
-# Google map ads on Search
-google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 
 # common ad in cz
 ##div[id^="bmone"]
