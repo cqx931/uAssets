@@ -3,7 +3,6 @@
 ##*[class^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
-#@#.adsbygoogle
 ##iframe[id*="ad_iframe"]
 ###google_image_div
 
