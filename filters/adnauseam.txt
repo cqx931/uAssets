@@ -9,10 +9,14 @@
 # Google map ads on Search
 google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 
-# generichide (#1466)
+##iframe[src*="mellowads"]
+
+# generichide-rules (#1466 etc)
 textmechanic.com##*[class^="google_ads"]
 textmechanic.com##*[class^="img_ad"]
 textmechanic.com##*[class^="adsby"]
+freebitcoin.win##iframe[src*="coinad"]
+freebitcoin.win##iframe[src*="mellowads"]
 
 search.yahoo.com##.layoutMiddle
 search.yahoo.com##.kr5yi684e6
