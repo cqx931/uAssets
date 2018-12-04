@@ -3,7 +3,7 @@
 ##*[class^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
-##iframe[id*="ad_iframe"]
+##iframe[id^="ad_"]
 ###google_image_div
 
 # Google map ads on Search
