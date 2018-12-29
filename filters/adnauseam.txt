@@ -526,3 +526,6 @@ weather.com##.wx-adWrapper
 
 # rockpapershotgun
 ||cdn.gamer-network.net/plugins/dfp$domain=rockpapershotgun.com
+
+# forbes.com
+forbes.com##*[class*=*"-ad"]
