@@ -489,6 +489,9 @@ adbtc.top##iframe[src*="neon.today"]
 ||exdynsrv.com^$third-party
 ||bebi.com^$third-party
 
+# nowbitco.in
+||czilladx.com/serve/*.js^
+
 ##################### Exceptions below here ########################
 
 # Requests that influence visual ads
@@ -532,6 +535,3 @@ adbtc.top##iframe[src*="neon.today"]
 
 # rockpapershotgun
 ||cdn.gamer-network.net/plugins/dfp$domain=rockpapershotgun.com
-
-# nowbitco.in
-||czilladx.com/serve/*.js^
