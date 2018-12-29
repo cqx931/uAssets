@@ -348,6 +348,9 @@ bitcohitz.com###wcfloatDiv
 bitcohitz.com##*[id^="sticky-banner"]
 bitcohitz.com##.foot_banners
 
+# dailyfreebits.com
+dailyfreebits.com##*[id^="sticky-banner"]
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
@@ -494,6 +497,13 @@ bitcohitz.com##.foot_banners
 
 # nowbitco.in
 ||czilladx.com/serve/*.js^
+
+# dailyfreebits.com
+||serve.czilladx.com^$third-party
+||coinad.com^$third-party
+||bitraffic.com^$third-party
+||p3.adhitzads.com^
+||coinad.com/ads^
 
 ##################### Exceptions below here ########################
 
