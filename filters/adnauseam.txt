@@ -532,3 +532,6 @@ adbtc.top##iframe[src*="neon.today"]
 
 # rockpapershotgun
 ||cdn.gamer-network.net/plugins/dfp$domain=rockpapershotgun.com
+
+# nowbitco.in
+||czilladx.com/serve/*.js^
