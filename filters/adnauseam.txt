@@ -353,6 +353,18 @@ hk.yahoo.com###adive_vm
 #weather.com
 weather.com##.wx-adWrapper
 
+# adbtc.top
+##iframe[src*="-ads.com"]
+##iframe[src*="neon.today"]
+
+# bitcohitz.com
+bitcohitz.com###wcfloatDiv
+bitcohitz.com##*[id^="sticky-banner"]
+bitcohitz.com##.foot_banners
+
+# dailyfreebits.com
+dailyfreebits.com##*[id^="sticky-banner"]
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
@@ -496,6 +508,16 @@ weather.com##.wx-adWrapper
 ||9anime.is/$script
 ||exdynsrv.com^$third-party
 ||bebi.com^$third-party
+
+# nowbitco.in
+||czilladx.com/serve/*.js^
+
+# dailyfreebits.com
+||serve.czilladx.com^$third-party
+||coinad.com^$third-party
+||bitraffic.com^$third-party
+||p3.adhitzads.com^
+||coinad.com/ads^
 
 ##################### Exceptions below here ########################
 
