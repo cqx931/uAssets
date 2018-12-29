@@ -340,7 +340,7 @@ hk.yahoo.com###adive_vm
 weather.com##.wx-adWrapper
 
 # adbtc.top
-##iframe[src*="ad.a-ads.com"]
+##iframe[src*="-ads.com"]
 ##iframe[src*="neon.today"]
 
 # bitcohitz.com
