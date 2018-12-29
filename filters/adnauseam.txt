@@ -345,6 +345,11 @@ adbtc.top##iframe[src*="neon.today"]
 ##iframe[src*="ad.a-ads.com"]
 ##iframe[src*="neon.today"]
 
+# bitcohitz.com
+bitcohitz.com###wcfloatDiv
+bitcohitz.com##*[id^="sticky-banner"]
+bitcohitz.com##.foot_banners
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
