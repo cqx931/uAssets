@@ -367,6 +367,10 @@ bitcohitz.com##.foot_banners
 # dailyfreebits.com
 dailyfreebits.com##*[id^="sticky-banner"]
 
+# bitcoin.treasurebits.net
+bitcoin.treasurebits.net##[id^="data_"]
+bitcoin.treasurebits.net##iframe[src="about:blank"]
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
