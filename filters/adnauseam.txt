@@ -38,8 +38,8 @@ apply.hkbn.net###promotionBannerId
 www.spacious.hk##.page__commercial_display_banner_box__content
 
 ##img[src*="/adserve/"]
-
 ##img[src*="ads.guava-affiliate.com"]
+##img[src*="display-ad/"]
 
 inc.com##.teads-inread
 
