@@ -512,6 +512,7 @@ bitcoin.treasurebits.net##iframe[src="about:blank"]
 
 # 9anime
 ||9anime.is/$script
+||9anime.to/$script
 ||exdynsrv.com^$third-party
 ||bebi.com^$third-party
 
