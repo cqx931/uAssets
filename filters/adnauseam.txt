@@ -371,6 +371,10 @@ dailyfreebits.com##*[id^="sticky-banner"]
 bitcoin.treasurebits.net##[id^="data_"]
 bitcoin.treasurebits.net##iframe[src="about:blank"]
 
+# 9anime.to
+www2.9anime.to##*[src*="inc"]
+www2.9anime.to##*[class*="crop"]
+
 ##################### Blocking rules ########################
 
 # 4archive.prg
@@ -525,6 +529,9 @@ bitcoin.treasurebits.net##iframe[src="about:blank"]
 ||bitraffic.com^$third-party
 ||p3.adhitzads.com^
 ||coinad.com/ads^
+
+# cnbc.com
+||ads-pd.nbcuni.com^
 
 ##################### Exceptions below here ########################
 
