@@ -345,31 +345,29 @@ neoseeker.com##.wrapper > .creative
 neoseeker.com###stitialv2
 neoseeker.com###leaderboardTop.section-ad
 
-#theguardian.com
 theguardian.com##.adverts--within-unbranded .badge
 theguardian.com##.paidfor-container .badge
 theguardian.com##.paid-content .badge
 
 hk.yahoo.com###adive_vm
 
-#weather.com
 weather.com##.wx-adWrapper
 
 # adbtc.top
 ##iframe[src*="-ads.com"]
 ##iframe[src*="neon.today"]
 
-# bitcohitz.com
 bitcohitz.com###wcfloatDiv
 bitcohitz.com##*[id^="sticky-banner"]
 bitcohitz.com##.foot_banners
 
-# dailyfreebits.com
 dailyfreebits.com##*[id^="sticky-banner"]
 
-# bitcoin.treasurebits.net
 bitcoin.treasurebits.net##[id^="data_"]
 bitcoin.treasurebits.net##iframe[src="about:blank"]
+
+9anime.to##*[src*="inc"]
+9anime.to##*[class*="crop"]
 
 ##################### Blocking rules ########################
 
@@ -525,6 +523,9 @@ bitcoin.treasurebits.net##iframe[src="about:blank"]
 ||bitraffic.com^$third-party
 ||p3.adhitzads.com^
 ||coinad.com/ads^
+
+# cnbc.com
+||ads-pd.nbcuni.com^
 
 ##################### Exceptions below here ########################
 
