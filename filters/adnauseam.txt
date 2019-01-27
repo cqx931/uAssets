@@ -1,8 +1,10 @@
 
 # Google generics
 ##*[class^="google_ads"]
+##*[id^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
+##*[class^="google"]
 ##iframe[id^="ad_"]
 ###google_image_div
 
