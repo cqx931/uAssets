@@ -285,6 +285,9 @@ www.overclockers.ru##img[src^="/images/HP_"]
 ##iframe[src*="amazon-adsystem.com"]
 ##.gqsvbds-single
 
+# startribune.com
+startribune.com##.ad-mod
+
 # mrfreeat33.com
 ##a[href*="track.flexlinkspro.com"]
 ##a[href*="bluehost.com/track"]
