@@ -373,7 +373,8 @@ bitcoin.treasurebits.net##iframe[src="about:blank"]
 
 9anime.to##*[src*="inc"]
 9anime.to##*[class*="crop"]
-
+9anime.to##*[src*="interbuzznews"]
+9anime.to##*[href*="revrtb"]
 ##################### Blocking rules ########################
 
 # 4archive.prg
