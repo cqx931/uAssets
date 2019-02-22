@@ -1,8 +1,10 @@
 
 # Google generics
 ##*[class^="google_ads"]
+##*[id^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
+##*[class^="google"]
 ##iframe[id^="ad_"]
 ###google_image_div
 
@@ -23,6 +25,8 @@ search.yahoo.com##.kr5yi684e6
 search.yahoo.com###right
 search.yahoo.com##.compTitle.fc-4th
 
+gearslutz.com###noticesContainer
+
 theglobeandmail.com##*[class*="ad-wrapper"]
 
 # www.independent.com.mt
@@ -36,8 +40,8 @@ apply.hkbn.net###promotionBannerId
 www.spacious.hk##.page__commercial_display_banner_box__content
 
 ##img[src*="/adserve/"]
-
 ##img[src*="ads.guava-affiliate.com"]
+##img[src*="display-ad/"]
 
 inc.com##.teads-inread
 
@@ -346,15 +350,29 @@ neoseeker.com##.wrapper > .creative
 neoseeker.com###stitialv2
 neoseeker.com###leaderboardTop.section-ad
 
-#theguardian.com
 theguardian.com##.adverts--within-unbranded .badge
 theguardian.com##.paidfor-container .badge
 theguardian.com##.paid-content .badge
 
 hk.yahoo.com###adive_vm
 
-#weather.com
 weather.com##.wx-adWrapper
+
+# adbtc.top
+##iframe[src*="-ads.com"]
+##iframe[src*="neon.today"]
+
+bitcohitz.com###wcfloatDiv
+bitcohitz.com##*[id^="sticky-banner"]
+bitcohitz.com##.foot_banners
+
+dailyfreebits.com##*[id^="sticky-banner"]
+
+bitcoin.treasurebits.net##[id^="data_"]
+bitcoin.treasurebits.net##iframe[src="about:blank"]
+
+9anime.to##*[src*="inc"]
+9anime.to##*[class*="crop"]
 
 ##################### Blocking rules ########################
 
@@ -497,8 +515,22 @@ weather.com##.wx-adWrapper
 
 # 9anime
 ||9anime.is/$script
+||9anime.to/$script
 ||exdynsrv.com^$third-party
 ||bebi.com^$third-party
+
+# nowbitco.in
+||czilladx.com/serve/*.js^
+
+# dailyfreebits.com
+||serve.czilladx.com^$third-party
+||coinad.com^$third-party
+||bitraffic.com^$third-party
+||p3.adhitzads.com^
+||coinad.com/ads^
+
+# cnbc.com
+||ads-pd.nbcuni.com^
 
 ##################### Exceptions below here ########################
 
