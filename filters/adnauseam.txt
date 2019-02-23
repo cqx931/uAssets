@@ -19,6 +19,7 @@ textmechanic.com##*[class^="img_ad"]
 textmechanic.com##*[class^="adsby"]
 freebitcoin.win##iframe[src*="coinad"]
 freebitcoin.win##iframe[src*="mellowads"]
+rockpapershotgun.com##*[id^="google_ads"]
 
 search.yahoo.com##.layoutMiddle
 search.yahoo.com##.kr5yi684e6
