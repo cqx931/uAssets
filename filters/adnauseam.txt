@@ -140,9 +140,9 @@ root.cz##.owl-stage-outer
 root.cz##.promo
 
 # sohu.com
-##DIV[class^="ad_"]
-##DIV[id^="ad_"]
-##DIV[id^="beans_"]
+sohu.com##DIV[class^="ad_"]
+sohu.com##DIV[id^="ad_"]
+sohu.com##DIV[id^="beans_"]
 ##DIV[class^="TurnAD"]
 ##iframe[src*='taobaocdn']
 ##span[id^="_AdSame"]
