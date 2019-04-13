@@ -5,15 +5,19 @@
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
 ##*[class^="google"]
-##iframe[id^="ad_"]
-###google_image_div
+##*[id^="ad_"]
+##*[id^="ad-"]
+##*[class^="ad_"]
+##*[class^="ad-"]
+##iframe[src*="mellowads"]
 
 # Google map ads on Search
 google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
 
-##iframe[src*="mellowads"]
+###google_image_div
 
 # generichide-rules (#1466 etc)
+trustedreviews.com##*[class^="ad-"]
 textmechanic.com##*[class^="google_ads"]
 textmechanic.com##*[class^="img_ad"]
 textmechanic.com##*[class^="adsby"]
