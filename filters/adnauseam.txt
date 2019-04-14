@@ -4,7 +4,6 @@
 ##*[id^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
-##*[class^="google"]
 ##*[id^="ad_"]
 ##*[id^="ad-"]
 ##*[class^="ad_"]
