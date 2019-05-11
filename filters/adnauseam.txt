@@ -1,5 +1,5 @@
 
-# Google generics
+# Generics (any page)
 ##*[class^="google_ads"]
 ##*[id^="google_ads"]
 ##*[class^="img_ad"]
@@ -9,6 +9,10 @@
 ##*[class^="ad_"]
 ##*[class^="ad-"]
 ##iframe[src*="mellowads"]
+##*[class*="Advert"]
+
+# Generic exceptions
+tweakers.net#@#*[class*="Advert"]
 
 # Google map ads on Search
 google.*##.mnr-c.rl-qs-crs-t._Db > ._gt:has(._mB)
@@ -32,9 +36,6 @@ search.yahoo.com##.compTitle.fc-4th
 gearslutz.com###noticesContainer
 
 theglobeandmail.com##*[class*="ad-wrapper"]
-
-# www.independent.com.mt
-##*[class*="Advert"]
 
 # www.telegraph.co.uk
 ##.premium-promo--wrapper
