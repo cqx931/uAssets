@@ -4,10 +4,6 @@
 ##*[id^="google_ads"]
 ##*[class^="img_ad"]
 ##*[class^="adsby"]
-##*[id^="ad_"]
-##*[id^="ad-"]
-##*[class^="ad_"]
-##*[class^="ad-"]
 ##iframe[src*="mellowads"]
 ##*[class*="Advert"]
 
